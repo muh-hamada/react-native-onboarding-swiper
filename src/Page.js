@@ -38,7 +38,7 @@ const Page = ({
   }
 
   return (
-    <View style={[styles.container, containerStyles]}>
+    <View style={[styles.container, containerStyles, {width}]}>
       <View style={[styles.imageContainer, imageContainerStyles]}>{image}</View>
       {titleElement}
       {subtitleElement}
